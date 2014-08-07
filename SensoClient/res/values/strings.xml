@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SensoClient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tv_to_load">温度数据</string>
+    <string name="btn_load">从文件载入</string>
+    <string name="btn_loadweb">从服务器载入</string>
+    <string name="btn_del">清空本地数据库</string>
+    <string name="btn_list">显示数据图表</string>
+    <string name="btn_file">输出到文件</string>
+    <string name="btn_web">上传至服务器</string>
+
+</resources>

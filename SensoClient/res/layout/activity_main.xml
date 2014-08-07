@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="@string/tv_to_load"
+        android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_weight="0.70"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_load"
+            android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+        <Button
+            android:id="@+id/btn_loadweb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_loadweb"
+            android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+
+        <Button
+            android:id="@+id/btn_delete_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="@string/btn_del"
+            android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+
+        <Button
+            android:id="@+id/btn_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_list"
+            android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+
+        <Button
+            android:id="@+id/btn_write_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_file"
+            android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+        
+        <Button
+            android:id="@+id/btn_write_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_web"
+            android:textSize="@dimen/abc_action_bar_progress_bar_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
